@@ -261,9 +261,9 @@ export function Navbar({ currentPage, cartCount, onNavigate, onSearch }: NavbarP
             ))}
           </div>
           <div className="flex items-center gap-4 text-[10px] font-bold text-slate-400 uppercase tracking-widest">
-            <span>Dublin Delivery: 60 Mins</span>
+            <span>Ulm Delivery: 60 Mins</span>
             <div className="w-1 h-1 bg-slate-300 rounded-full" />
-            <span>Support: +353 (0) 1 234 5678</span>
+           <span>Support: +49 731 123 4567</span>
           </div>
         </div>
       </div>

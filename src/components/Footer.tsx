@@ -71,11 +71,11 @@ export function Footer({ onNavigate }: FooterProps) {
             <h4 className="text-white font-bold mb-6">Visit Us</h4>
             <div className="flex items-start gap-3 text-sm">
               <MapPin className="h-5 w-5 text-green-500 shrink-0" />
-              <p>123 Spice Route, Asian Quarter, <br />Dublin, Ireland</p>
+              <p>123 Gewürzstraße, Asian Quarter, <br />89073 Ulm, Germany</p>
             </div>
             <div className="flex items-center gap-3 text-sm">
               <Phone className="h-5 w-5 text-green-500 shrink-0" />
-              <p>+353 1 234 5678</p>
+              <p>+49 731 123 4567</p>
             </div>
             <div className="flex items-center gap-3 text-sm">
               <Mail className="h-5 w-5 text-green-500 shrink-0" />

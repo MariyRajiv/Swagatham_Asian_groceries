@@ -76,16 +76,16 @@ export function Hero({ onCtaClick, onDealsClick }: HeroProps) {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="relative"
+          className="relative -mt-16"
         >
-          <div className="w-140 aspect-square rounded-3xl overflow-hidden shadow-xl relative z-10">
-            <img 
-              src="https://images.unsplash.com/photo-1627483262268-9c2b5b2834b5?q=80&w=1200&auto=format&fit=crop" 
-              alt="Authentic Asian spices and premium fresh ingredients" 
-              className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
-              referrerPolicy="no-referrer"
-            />
-          </div>
+      <div className="w-140 rounded-3xl overflow-hidden shadow-xl relative z-10">
+        <img 
+          src="https://lh3.googleusercontent.com/u/0/d/1zA9hFDal8sVBmcRkTdH6JCf4ce9f9Xgj" 
+          alt="Authentic Asian spices" 
+          className="w-full h-auto transform hover:scale-105 transition-transform duration-700"
+          referrerPolicy="no-referrer"
+        />
+      </div>
           
           {/* Floating Product Card (Visual Decoration) */}
           <motion.div 

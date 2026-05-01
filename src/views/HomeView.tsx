@@ -119,7 +119,7 @@ export function HomeView({ onNavigate, onAddToCart, favorites, onToggleFavorite 
                  </h2>
                  <p className="text-green-50 text-lg leading-relaxed opacity-90">
                     We source directly from farms and trusted suppliers to ensure the authentic aroma 
-                    and flavor reaches your home Irish kitchen just like it used to.
+                    and flavor reaches your home kitchen just like it used to.
                  </p>
                  <div className="flex items-center gap-10">
                     <div>
@@ -132,7 +132,7 @@ export function HomeView({ onNavigate, onAddToCart, favorites, onToggleFavorite 
                     </div>
                     <div>
                        <p className="text-3xl font-bold">1hr</p>
-                       <p className="text-xs uppercase tracking-widest text-green-200">Dublin Delivery</p>
+                       <p className="text-xs uppercase tracking-widest text-green-200">Ulm Delivery</p>
                     </div>
                  </div>
               </div>

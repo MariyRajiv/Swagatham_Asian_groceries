@@ -12,7 +12,7 @@ interface TrackingViewProps {
 
 export function TrackingView({ order, onNavigate }: TrackingViewProps) {
   const displayOrderId = order?.id || "SWG-" + Math.random().toString(36).toUpperCase().substring(2, 10);
-  const city = order?.customerDetails.city || "Dublin, IE";
+  const city = order?.customerDetails.city || "Ulm, Germany";
   
   const steps = [
     { title: "Order Placed", desc: "Your order has been received", time: "10:30 AM", status: "complete" },
